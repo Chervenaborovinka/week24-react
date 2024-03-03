@@ -12,14 +12,13 @@ const Tariff = ({ name, price, speed, isSelected, onSelect }) => {
 
 
     return (
-        <div style={tariffStyles.container}>
-            <div style={style} onClick={onSelect} >
-                <h2>{name}</h2>
-                <p>{price}р</p>
-                <p>{speed}</p>
-                <p>Объем включенного трафика не ограничен</p>
-            </div >
-        </div>
+        <div style={style} onClick={onSelect} >
+            <h2>{name}</h2>
+            <p>{price}р</p>
+            <p>{speed}</p>
+            <p>Объем включенного трафика не ограничен</p>
+        </div >
+
     );
 };
 

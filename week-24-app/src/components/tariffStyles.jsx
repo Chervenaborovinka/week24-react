@@ -1,10 +1,4 @@
 const tariffStyles = {
-    container: {
-        display: 'flex',
-        flexDirection: 'row',
-        justifyContent: 'space-around',
-        alignItems: 'center',
-    },
     tariff: {
         padding: '10px',
         margin: '10px',
